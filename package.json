@@ -8,6 +8,7 @@
     },
     "dependencies": {
         "cookie-parser": "1.4.*",
+        "express": "^4.17.1",
         "http-errors": ">=1.6.3"
     },
     "license": "MIT"
