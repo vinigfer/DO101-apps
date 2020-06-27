@@ -1,8 +1,11 @@
 var express = require("express");
 app = express();
 
-app.get('/', function(req, res){
-    res.send('hello world!!\n');
+app.get('/', function (req, res) {
+    response = 'This is version 2 of the app.' + '\n';
+    //send the response to the client
+    res.send(response);
+
 });
 
 app.get('/mars', function(req, res){
